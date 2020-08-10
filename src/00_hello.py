@@ -12,8 +12,6 @@ print(name)
 print('Hello ' + name)
 
 # Format strings
-# print(f'Hello {name}')
+print(f'Hello {name}'')
 
-# Data Structures
 
-# Lists

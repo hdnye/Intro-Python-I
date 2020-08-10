@@ -14,8 +14,8 @@ y = "7"
 # Write a print statement that combines x + y into the integer value 12
 
 # YOUR CODE HERE
-# sum = float(x)+float(y)
-# print("{x} and {y}".format(x, y, sum))
+sum = int(x) + int(y)
+print(sum)
 
 # Write a print statement that combines x + y into the string value 57
 
