@@ -35,6 +35,8 @@ print(y)
 
 x = input("Enter comma-separated numbers: ").split(',')
 
+print(x)
+
 # What do you need between the square brackets to make it work?
 y = []
 
