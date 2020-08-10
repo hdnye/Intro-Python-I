@@ -24,9 +24,8 @@ x.insert(5, 99)
 print(x)
 # Print the length of list x
 # YOUR CODE HERE
-len(x)
-print(x)
+print(len(x))
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-sum(x * 1000)
-print(x)
+total = sum(x)
+print(total * 1000)
