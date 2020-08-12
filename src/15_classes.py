@@ -20,8 +20,10 @@ class Waypoint(LatLon):
     def __init__(self, name, lat, lon):
         super().__init__(lat, lon)
         self.name = name
-    #must add __str__ method in order to print a class unless
-    #inheriting from a class that already implements it
+        
+    # must add __str__ method in order to print a class unless
+    # inheriting from a class that already implements it
+
     def __str__(self):
         return f'{self.name}, { self.lat}, {self.lon}'
 
@@ -35,6 +37,11 @@ class Geocache(Waypoint):
         super().__init__(name, lat, lon)
         self.difficulty = difficulty
         self.size = size
+
+        # adding str to a child class with override the inheritied str 
+
+    def __str__(self):
+        return f"{super().__str__()} has difficulty {self.difficulty} and size {self.size}"
 
 # Make a new waypoint and print it out: "Catacombs", 41.70505, -121.51521
 
