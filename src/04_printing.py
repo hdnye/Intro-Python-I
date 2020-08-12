@@ -18,4 +18,4 @@ print("x is %d, y is %f, z is %s" % (x, y, z))
 print('x is %d, y is %f, and z is %s' % (10, 2.24552, 'I like turtles!'))
 
 # Finally, print the same thing using an f-string
-print(f"x is {x}, y is {y}, and z is {z}")
+print(f'x is {x}, y is {y}, and z is {z}')
