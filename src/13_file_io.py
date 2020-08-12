@@ -30,3 +30,4 @@ with open('src/bar.txt', 'w') as bar_file:
 with open('src/bar.txt', 'r') as f:
     read_data = f.read()
     print(read_data)
+# if not using with, close the file with print(f.closed) or w/e var was used    

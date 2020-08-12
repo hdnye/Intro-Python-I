@@ -41,8 +41,6 @@ print(d.get('y'))
 
 # conditionals
 
-# functions
-
 # math
 
 # sets
