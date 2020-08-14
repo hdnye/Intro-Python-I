@@ -30,3 +30,26 @@ it should use today’s date to get the month and year.
 import sys
 import calendar
 from datetime import datetime
+
+# create variables for each input needed to fill calndar out mo/yr
+y = input('Enter Year: ')
+m = input('Enter Month: ')
+
+if y == '' and m == '':
+    y = datetime.now().year
+    m = datetime.now().month
+    current = calendar.month(y, m)
+    print(current)
+
+# if just year entered 
+#if int(y) and m == '':
+if y and m == '':
+    m = datetime.now().month
+    
+# if just month entered 
+#if y == '' and int(m):
+if y == '' and m:
+  y = datetime.now().year   
+# year and month entered
+# else:
+print(y, m)
