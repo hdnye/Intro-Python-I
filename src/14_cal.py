@@ -50,6 +50,7 @@ if y and m == '':
 #if y == '' and int(m):
 if y == '' and m:
   y = datetime.now().year   
+  
 # year and month entered
 # else:
 print(y, m)

@@ -29,3 +29,6 @@ print(len(x))
 # YOUR CODE HERE
 total = sum(x)
 print(total * 1000)
+# Iterate through the list
+for el in x: 
+    print(el)

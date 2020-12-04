@@ -35,3 +35,9 @@ s = "Hello, world!"
 
 # Output just the 8th-12th characters: "world"
 print(s[7:12])
+print(s.split())
+# Reverse the list
+print(a[::-1])
+print(a[::2])
+print(s[7])
+print(s[9:5:-1])

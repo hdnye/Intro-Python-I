@@ -19,7 +19,7 @@ num = input("Enter a number: ")
 num = int(num)
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
-#num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # evens = 0
 # odds = 0
 
@@ -28,7 +28,7 @@ num = int(num)
 #         evens += 1
 #     else: 
 #         odds += 1     
-
+    
 if num % 2:
     print('This is an odd number')   
 else:

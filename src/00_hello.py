@@ -1,5 +1,6 @@
 # Print "Hello, world!" to your terminal
-
+import string
+string.whitespace
 print('Hello World!')
 
 # declare a variable
@@ -12,6 +13,6 @@ print(name)
 print('Hello ' + name)
 
 # Format strings
-print(f'Hello {name}'')
+print(f'Hello {name}')
 
 
